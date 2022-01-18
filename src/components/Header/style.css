@@ -1,0 +1,22 @@
+.img_logo {
+    height: 50px;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px 15px;
+    color: #FF6060;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav a.active {
+    text-decoration: underline;
+}

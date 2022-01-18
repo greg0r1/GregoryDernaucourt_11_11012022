@@ -1,0 +1,19 @@
+.footerContainer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    color: #fff;
+    font-size: 12px;
+    padding: 2rem;
+    margin-left: -100vh;
+    margin-right: -100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeLogo {
+    height: 35px;
+    padding: 1rem;
+}

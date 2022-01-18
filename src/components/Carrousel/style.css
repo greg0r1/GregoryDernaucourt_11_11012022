@@ -1,0 +1,37 @@
+.imageWrapper {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftButton {
+    position: absolute;
+    left: 10px;
+    background: no-repeat center/30% url('../../assets/arrow.svg');
+    width: 100px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.rightButton {
+    position: absolute;
+    right: 10px;
+    background: no-repeat center/30% url('../../assets/arrow.svg');
+    width: 100px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.carrousselImage {
+    width: 100%;
+    height: auto;
+}
