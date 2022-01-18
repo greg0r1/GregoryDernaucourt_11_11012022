@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec3147d9.css",
+    "main.js": "/static/js/main.e27b3675.js",
+    "static/media/eric-muhr-P_XxsdVgtpQ-unsplash.jpeg": "/static/media/eric-muhr-P_XxsdVgtpQ-unsplash.ddb5d239fb3ea10ce041.jpeg",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.webp": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.ab48e47b258b8ead5521.webp",
+    "static/media/logo.svg": "/static/media/logo.bb1c78bdbf97911cf6044e13e0c4f670.svg",
+    "static/media/logo-white.svg": "/static/media/logo-white.067d5910f2364f3e318906de944aa659.svg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.fcd8131c4741f9116bc0.svg",
+    "static/media/grey_star.svg": "/static/media/grey_star.7e4ba6032d7d80ecc30a.svg",
+    "static/media/red_star.svg": "/static/media/red_star.4b5d63230310a35a01cd.svg",
+    "main.ec3147d9.css.map": "/static/css/main.ec3147d9.css.map",
+    "main.e27b3675.js.map": "/static/js/main.e27b3675.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec3147d9.css",
+    "static/js/main.e27b3675.js"
+  ]
+}
