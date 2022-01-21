@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GregoryDernaucourt_11_11012022/static/css/main.182e935f.css",
+    "main.js": "/GregoryDernaucourt_11_11012022/static/js/main.a0259781.js",
+    "static/media/eric-muhr-P_XxsdVgtpQ-unsplash.jpeg": "/GregoryDernaucourt_11_11012022/static/media/eric-muhr-P_XxsdVgtpQ-unsplash.ddb5d239fb3ea10ce041.jpeg",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.webp": "/GregoryDernaucourt_11_11012022/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.ab48e47b258b8ead5521.webp",
+    "static/media/logo.svg": "/GregoryDernaucourt_11_11012022/static/media/logo.bb1c78bdbf97911cf6044e13e0c4f670.svg",
+    "static/media/logo-white.svg": "/GregoryDernaucourt_11_11012022/static/media/logo-white.067d5910f2364f3e318906de944aa659.svg",
+    "index.html": "/GregoryDernaucourt_11_11012022/index.html",
+    "static/media/arrow.svg": "/GregoryDernaucourt_11_11012022/static/media/arrow.fcd8131c4741f9116bc0.svg",
+    "static/media/grey_star.svg": "/GregoryDernaucourt_11_11012022/static/media/grey_star.7e4ba6032d7d80ecc30a.svg",
+    "static/media/red_star.svg": "/GregoryDernaucourt_11_11012022/static/media/red_star.4b5d63230310a35a01cd.svg",
+    "main.182e935f.css.map": "/GregoryDernaucourt_11_11012022/static/css/main.182e935f.css.map",
+    "main.a0259781.js.map": "/GregoryDernaucourt_11_11012022/static/js/main.a0259781.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.182e935f.css",
+    "static/js/main.a0259781.js"
+  ]
+}
