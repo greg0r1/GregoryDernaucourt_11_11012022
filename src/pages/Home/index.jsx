@@ -17,6 +17,7 @@ function Home() {
         <div className="galleryContainer">
           {datas.map((card, index) => (
             <Link
+              className="cardLink"
               key={`${card.id.toString()}-${index.toString()}`}
               to={`/HousingPage/${card.id}`}
             >

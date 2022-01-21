@@ -4,6 +4,7 @@
 
 .tagsWrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .infosContainer {
@@ -68,4 +69,58 @@
 
 .grey_star {
     background: no-repeat center/100% url('../../assets/grey_star.svg');
+}
+
+@media screen and (max-width: 781px) {
+    .housingPageWrapper {
+        padding: 20px;
+    }
+
+    .infosWrapper {
+        width: 100%;
+    }
+
+    .infosContainer_title {
+        font-size: 24px;
+    }
+
+    .profileContainer {
+        width: 100%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .red_star.star_rating {
+        width: 25px;
+        height: 25px;
+    }
+
+    .profile_image {
+        height: 100px;
+    }
+
+    .dropdownLargeWrapper {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 782px) and (max-width: 1200px) {
+    .profileContainer {
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .profile {
+        margin: 0 0 0 auto;
+    }
+
+    .infosContainer {
+        flex-wrap: wrap;
+    }
+
 }

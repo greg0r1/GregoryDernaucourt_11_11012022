@@ -4,7 +4,7 @@
     font-weight: bold;
     padding: 10px;
     bottom: 0;
-    margin: 0 0 20px 10px;
+    margin: 0 10px 20px 10px;
     right: auto;
     z-index: 2;
 }
@@ -15,7 +15,8 @@
     border-radius: 10px;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     filter: brightness(0.8);
-    background-color: #FF6060
+    background-color: #FF6060;
+    aspect-ratio: 1/1;
 }
 
 .cardWrapper {
@@ -31,4 +32,28 @@
 .cardWrapper:hover {
     cursor: pointer;
     box-shadow: 2px 2px 10px #e2e3e9;
+    background: #f5f5f5;
+}
+
+@media screen and (max-width: 781px) {
+    .cardWrapper {
+        width: -webkit-fill-available;
+        padding: 15px 0;
+
+    }
+
+    .cardWrapper:hover {
+        box-shadow: unset;
+    }
+
+    .cardImage {
+        height: auto;
+        aspect-ratio: 20/15;
+    }
+}
+
+@media screen and (min-width: 782px) and (max-width: 1200px) {
+    .cardWrapper {
+        width: auto;
+    }
 }

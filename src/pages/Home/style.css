@@ -11,16 +11,43 @@
     flex-direction: column;
     max-width: 1200px;
     height: fit-content;
+    width: 100%;
 }
 
 .galleryContainer {
     margin: 20px 0;
     padding: 30px;
-    display: grid;
-    grid-template-rows: 350px 350px;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     justify-items: center;
     border-radius: 25px;
     background: #F7F7F7;
+}
+
+@media screen and (max-width: 781px) {
+    .cardLink {
+        width: 100%;
+    }
+
+    .galleryContainer {
+        background: unset;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    #Home {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 782px) and (max-width:1200px) {
+    .galleryContainer {
+        padding: 15px;
+    }
+
+    .cardLink {
+        width: 50%;
+    }
 }

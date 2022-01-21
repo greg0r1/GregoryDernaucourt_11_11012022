@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import './style.css'
 
 function Carrousel({ index, images, updateIndex }) {
@@ -41,6 +42,12 @@ function Carrousel({ index, images, updateIndex }) {
       ) : null}
     </div>
   )
+}
+
+Carrousel.propType = {
+  index: PropTypes.number.isRequired,
+  images: PropTypes.array.isRequired,
+  updateIndex: PropTypes.func,
 }
 
 export default Carrousel

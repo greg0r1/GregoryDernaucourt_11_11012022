@@ -32,6 +32,7 @@
 }
 
 .carrousselImage {
-    width: 100%;
-    height: auto;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    object-fit: cover;
 }
