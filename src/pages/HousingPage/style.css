@@ -80,6 +80,11 @@
         width: 100%;
     }
 
+    .infosContainer {
+        flex-wrap: wrap;
+    }
+
+
     .infosContainer_title {
         font-size: 24px;
     }
@@ -96,6 +101,11 @@
         height: 25px;
     }
 
+    .profile {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
     .profile_image {
         height: 100px;
     }
@@ -105,13 +115,17 @@
         flex-wrap: wrap;
     }
 
+    .rating {
+        width: unset;
+        flex-grow: 1;
+    }
+
 }
 
 @media screen and (min-width: 782px) and (max-width: 1200px) {
     .profileContainer {
-        flex-direction: row-reverse;
         align-items: center;
-        width: 100%;
+        width: auto;
         justify-content: space-evenly;
     }
 

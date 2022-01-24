@@ -15,10 +15,10 @@ ReactDOM.render(
     <Router>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route path="/HousingPage/:cardId" element={<HousingPage />}></Route>
-        <Route path="/About" element={<About />}></Route>
-        <Route path="*" element={<Error />}></Route>
+        <Route exact path='/' element={<Home />}></Route>
+        <Route path='/HousingPage/:cardId' element={<HousingPage />}></Route>
+        <Route path='/About' element={<About />}></Route>
+        <Route path='*' element={<Error />}></Route>
       </Routes>
       <Footer />
     </Router>

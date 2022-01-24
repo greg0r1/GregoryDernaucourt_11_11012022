@@ -36,3 +36,19 @@
     height: -webkit-fill-available;
     object-fit: cover;
 }
+
+@media screen and (max-width: 781px) {
+    .imageWrapper {
+        height: auto;
+        aspect-ratio: 300/230;
+    }
+
+    .rightButton {
+        right: -15px;
+    }
+
+    .leftButton {
+        left: -15px;
+    }
+
+}
