@@ -1,7 +1,17 @@
+//@ts-check
+
 import PropTypes from 'prop-types'
 import { useState } from 'react'
 import './style.css'
 
+/**
+ * Toogle component with a title and his content
+ * @component
+ * @param {{title: string, content: array}} props
+ * @property {string} title
+ * @property {array} content
+ * @returns {React.ReactElement}
+ */
 function DropdownLarge({ title, content }) {
   const [display, updateDisplay] = useState('none')
 

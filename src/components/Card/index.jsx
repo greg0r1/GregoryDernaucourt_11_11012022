@@ -1,12 +1,16 @@
+//@ts-check
+
 import PropTypes from 'prop-types'
 import './style.css'
 
 /**
- * The "card" component displays an image and a title on it
- * @version 1.0.0
- * @param {string} { title, picture }
- * @returns {HTMLModElement}
- * @visibleName Card component (thumb in Figma)
+ * "Card" component that displays an image with text on it.
+ * Used to display multiple items on a page.
+ * @component
+ * @param {{title: string, picture: string}} props
+ * @property {string} title
+ * @property {string} picture
+ * @returns {React.ReactElement}
  */
 function Card({ title, picture }) {
   return (

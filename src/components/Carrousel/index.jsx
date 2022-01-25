@@ -1,6 +1,17 @@
+//@ts-check
+
 import PropTypes from 'prop-types'
 import './style.css'
 
+/**
+ *
+ * @component
+ * @param {{index: number, images: array, updateIndex: function }} props
+ * @property {number} index
+ * @property {array} images
+ * @property {function} updateIndex
+ * @returns {React.ReactElement}
+ */
 function Carrousel({ index, images, updateIndex }) {
   return (
     <div className="imageWrapper">

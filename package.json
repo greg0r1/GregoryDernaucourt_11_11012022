@@ -21,9 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "doc": "jsdoc -c jsdoc.json"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "jsdoc": "^3.6.10",
     "prettier": "^2.5.1"
   }
 }

@@ -1,6 +1,12 @@
+//@ts-check
+
 import { Link } from 'react-router-dom'
 import './style.css'
 
+/**
+ * @component
+ * @returns {React.ReactElement}
+ */
 function Error() {
   return (
     <div className="errorContainer">

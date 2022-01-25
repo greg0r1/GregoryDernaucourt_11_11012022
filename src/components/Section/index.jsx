@@ -1,7 +1,17 @@
+//@ts-check
+
 import PropTypes from 'prop-types'
 import DefaultPicture from '../../assets/eric-muhr-P_XxsdVgtpQ-unsplash.jpeg'
 import './style.css'
 
+/**
+ * Display an image on the top of a page
+ * @component
+ * @param {{text: string, picture: string|*}} props
+ * @property {string} text
+ * @property {string|*} picture
+ * @returns {React.ReactElement}
+ */
 function Section({ text, picture }) {
   return (
     <div id="section" className="sectionWrapper">

@@ -1,5 +1,13 @@
+//@ts-check
+
 import json from './logements.json'
 
+/**
+ * Data Service
+ *
+ * @export
+ * @class Datas
+ */
 export default class Datas {
   static getAll() {
     return (this.datas = json)

@@ -1,7 +1,13 @@
+//@ts-check
+
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/logo-white.svg'
 import './style.css'
 
+/**
+ * @component
+ * @returns {React.ReactElement}
+ */
 function Footer() {
   return (
     <footer className="footerContainer">

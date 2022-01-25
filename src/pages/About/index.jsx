@@ -1,8 +1,15 @@
+//@ts-nocheck
+
 import Section from '../../components/Section'
 import AboutIllustration from '../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash.webp'
 import DropdownLarge from '../../components/DropdownLarge'
 import './style.css'
 
+/**
+ * "About" page
+ *
+ * @returns {React.ReactElement}
+ */
 function About() {
   return (
     <div id="About">

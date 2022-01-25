@@ -6,6 +6,11 @@ import Carrousel from '../../components/Carrousel'
 import DropdownLarge from '../../components/DropdownLarge'
 import './style.css'
 
+/**
+ * "Housing" page
+ *
+ * @returns {React.ReactElement}
+ */
 function HousingPage() {
   const { cardId } = useParams()
   const card = Datas.getCard(cardId)

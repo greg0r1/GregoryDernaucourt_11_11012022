@@ -5,6 +5,11 @@ import Card from '../../components/Card'
 import { Link } from 'react-router-dom'
 import './style.css'
 
+/**
+ * Homepage
+ *
+ * @returns {React.ReactElement}
+ */
 function Home() {
   const datas = Datas.getAll()
   return (
