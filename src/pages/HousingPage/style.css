@@ -1,5 +1,5 @@
 .housingPageWrapper {
-    height: 100%;
+    height: auto;
 }
 
 .tagsWrapper {
@@ -71,6 +71,23 @@
     background: no-repeat center/100% url('../../assets/grey_star.svg');
 }
 
+@media screen and (min-width: 782px) and (max-width: 1200px) {
+    .profileContainer {
+        align-items: center;
+        width: auto;
+        justify-content: space-evenly;
+    }
+
+    .profile {
+        margin: 0 0 0 auto;
+    }
+
+    .infosContainer {
+        flex-wrap: wrap;
+    }
+
+}
+
 @media screen and (max-width: 781px) {
     .housingPageWrapper {
         padding: 20px;
@@ -122,19 +139,24 @@
 
 }
 
-@media screen and (min-width: 782px) and (max-width: 1200px) {
-    .profileContainer {
-        align-items: center;
-        width: auto;
-        justify-content: space-evenly;
+@media screen and (max-width: 300px) {
+    .housingPageWrapper {
+        padding: 0 10px;
+    }
+
+    .infosWrapper {
+        text-align: center;
+    }
+
+    .tagsWrapper {
+        justify-content: center;
     }
 
     .profile {
-        margin: 0 0 0 auto;
+        justify-content: center;
     }
 
-    .infosContainer {
-        flex-wrap: wrap;
+    .infosContainer div {
+        margin-top: 10px;
     }
-
 }

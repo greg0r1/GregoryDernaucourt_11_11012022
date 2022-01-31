@@ -37,3 +37,9 @@
         aspect-ratio: 25/10;
     }
 }
+
+@media screen and (max-width: 300px) {
+    #About {
+        padding: 10px;
+    }
+}

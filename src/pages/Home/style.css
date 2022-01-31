@@ -50,4 +50,14 @@
     .cardLink {
         width: 50%;
     }
+
+    .homeContainer section {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #Home {
+        padding: 10px;
+    }
 }

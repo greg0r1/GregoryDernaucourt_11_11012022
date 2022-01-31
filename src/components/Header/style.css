@@ -31,6 +31,21 @@ nav a.active {
     }
 
     .header {
+        display: flex;
+        flex-wrap: wrap;
         padding: 20px;
     }
+
+
+}
+
+@media screen and (max-width: 300px) {
+    .header a {
+        margin: auto;
+    }
+
+    .header nav {
+        margin: 20px auto 0;
+    }
+
 }
