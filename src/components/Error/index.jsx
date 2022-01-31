@@ -10,8 +10,10 @@ import './style.css'
 function Error() {
   return (
     <div className="errorContainer">
-      <h1 className="errorTitle">404</h1>
-      <p>Oups! La page que vous demandez n'existe pas.</p>
+      <div className="errorMessage">
+        <h1 className="errorTitle">404</h1>
+        <p>Oups! La page que vous demandez n'existe pas.</p>
+      </div>
       <Link className="errorLink" to="/">
         Retourner sur la page d’accueil
       </Link>
